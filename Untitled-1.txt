@@ -1,0 +1,35 @@
+# x = uuid.uuid1()
+# x1 = uuid.uuid1()
+# x2 = uuid.uuid1()
+# x3 = uuid.uuid1()
+# token = [x,x1,x2,x3]
+# message = ['hola','como','estas','amigo']
+
+# dirfile =  "./database.txt"
+
+# read = open(dirfile, 'a+')
+# for i in range(len(token)):
+#     read.write(message[i] + ',' + str(token[i]) + '\n')
+# read.close()
+
+# dirfile =  "./tokens.txt"
+
+# read = open(dirfile, 'w')
+# for i in range(len(token)):
+#     read.write(token[i] +'\n')
+# read.close()
+
+# data = pd.read_csv("database.txt", header=None)
+# dframe = data.loc[:, 0:2]
+# totalD = np.array(dframe)
+
+# df2 = data.loc[:, 0:0]
+# messageX =np.array(df2)
+
+# df3 = data.loc[:, 1:1]
+# idY =np.array(df3)
+
+# data = pd.read_csv("tokens.txt", header=None)
+# dtk = data.loc[:, 0:0]
+# token = np.array(dtk)
+# print(token)
